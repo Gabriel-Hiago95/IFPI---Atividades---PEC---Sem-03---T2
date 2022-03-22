@@ -1,0 +1,4 @@
+min = int(input('Informe a quantidade de minutos que deseja converter: '))
+horas = min // 60
+minrest = min % 60
+print('{} minutos correspondem a {} horas e {} minutos'.format(min, horas, minrest))
