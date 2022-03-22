@@ -1,0 +1,6 @@
+raio = float(input('Informe o valor do raio da circunferencia: '))
+comp = 2 * 3.14 * raio
+areacirc = 3.14 * (raio ** 2)
+areaesf = 4 * 3.14 * (raio ** 2)
+volesf = 4 / 3 * 3.14 * (raio ** 3)
+print('Valor do raio: {}\nValor do comprimento da circunferencia: {:.6f}\nValor da área do círculo: {:.6f}\nValor da área da esfera: {:.6f}\nValor do volume da esfera: {:.6f}'.format(raio, comp, areacirc, areaesf, volesf))
