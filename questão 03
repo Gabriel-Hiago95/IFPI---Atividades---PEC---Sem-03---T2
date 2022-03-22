@@ -1,0 +1,5 @@
+dividendo = float(input('Informe o primeiro valor: '))
+divisor = float(input('Informe o segundo valor: '))
+divisao = dividendo / divisor
+resto = dividendo % divisor
+print('O resultado da divisão entre {} e {} vale {:.2f} e o resto da divisão vale {}'.format(dividendo, divisor, divisao, resto))
