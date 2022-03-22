@@ -1,0 +1,4 @@
+anos = int(input('Informe o tempo de serviço do funcionário em anos: '))
+bonus = float(input('Informe o valor do bônus anual a ser pago: '))
+bonificacao = anos * bonus
+print('O funcionário que possui {} anos trabalhados vai receber R$ {} de bonificação'.format(anos, bonificacao))
